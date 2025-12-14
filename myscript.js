@@ -161,10 +161,11 @@ document.addEventListener("DOMContentLoaded", () => {
         message.trim()
       ];
       const body = encodeURIComponent(bodyLines.join('\n'));
-      const mailto = `mailto:gouthamjosh22@gmail.com?subject=${subject}&body=${body}`;
+      const mailto = `mailto:dman10288@gmail.com?subject=${subject}&body=${body}`;
 
       // open mail client
       window.location.href = mailto;
     });
   }
 });
+
